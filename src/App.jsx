@@ -24,7 +24,9 @@ export default function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/my-profile' element={<MyProfile/>}/>
         <Route path='/my-appointments' element={<MyAppointments/>}/>
-        <Route path='/appointment' element={<Appointment/>}/>
+        
+        <Route path='/appointment/:docId' element={<Appointment />} />
+
 
 
       </Routes>
